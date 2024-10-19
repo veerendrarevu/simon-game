@@ -46,16 +46,19 @@ $(".btn").click(function() {
 
         }
 
-        if (i ==  gamePattern.length) {
+       if (started) {
 
-            setTimeout(function(){
-                nextSequence();
-                i = 0;
-
-            }, 500)
-            
-            
-        }
+          if (i ==  gamePattern.length) {
+  
+              setTimeout(function(){
+                  nextSequence();
+                  i = 0;
+  
+              }, 500)
+              
+              
+          }
+       }
 
     
         playSound(userChosenColour);
