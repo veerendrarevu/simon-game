@@ -43,18 +43,23 @@ $(".btn").click(function() {
             }, 200)
 
             $("#level-title").text("Game Over, Press Any Key to Restart");
+            startOver();
+            
 
         }
 
-        if (i ==  gamePattern.length) {
+        if (started) {
 
-            setTimeout(function(){
-                nextSequence();
-                i = 0;
+          if (i ==  gamePattern.length) {
 
-            }, 500)
-            
-            
+              setTimeout(function(){
+                  nextSequence();
+                  i = 0;
+
+              }, 500)
+              
+              
+          }
         }
 
     
