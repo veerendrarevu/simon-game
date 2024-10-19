@@ -48,7 +48,7 @@ $(".btn").click(function() {
 
         }
 
-<<<<<<< HEAD
+
         if (started) {
 
           if (i ==  gamePattern.length) {
@@ -57,25 +57,13 @@ $(".btn").click(function() {
                   nextSequence();
                   i = 0;
 
-=======
-       if (started) {
-
-          if (i ==  gamePattern.length) {
-  
-              setTimeout(function(){
-                  nextSequence();
-                  i = 0;
-  
->>>>>>> 340f31e5c865f298edc55da6491e0806cdf1cc6d
               }, 500)
               
               
           }
-<<<<<<< HEAD
+
         }
-=======
-       }
->>>>>>> 340f31e5c865f298edc55da6491e0806cdf1cc6d
+
 
     
         playSound(userChosenColour);
