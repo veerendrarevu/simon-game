@@ -57,6 +57,7 @@ $(".btn").click(function() {
                   nextSequence();
                   i = 0;
 
+
               }, 500)
               
               
